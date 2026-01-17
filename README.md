@@ -7,9 +7,9 @@ a Gradle plugin for Hytale that makes development of Hytale plugins easier, with
 <details>
 <summary>hytale-gradle</summary>
 
-### Basic Usage
+### basic usage
 
-In `build.gradle.kts`:
+in `build.gradle.kts`:
 
 ```kotlin
 plugins {
@@ -24,4 +24,6 @@ hytale {
 
 // you can now run the Hytale server using the `runServer` task!
 ```
+
+note: the plugin is currently under approval on Gradle, so it cannot be used yet unless you clone and publish it locally.
 </details>
